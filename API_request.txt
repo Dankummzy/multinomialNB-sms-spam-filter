@@ -1,0 +1,5 @@
+curl -X POST \
+  https://127.0.0.1:5000/predict \
+  -H 'API-Key: whatever' \
+  -H 'Content-Type: application/json' \
+  -d '{"text": "Input text here"}'
